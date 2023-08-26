@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-color: lightblue;
+    color: #00000a;
+    height: 600px;
+    width: 550px;
+    margin: 15% 20% 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: red;
+}
+textarea{
+    width: 400px;
+    height: 290px;
+    background-color: aliceblue;
+    color: #00000a;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 30px;
+}
+textarea::placeholder{
+    color:#1b3358;
+    font-size: 16px;
+}
+.row{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+button{
+    background-color: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
+button i{
+    font-size: 16px;
+    margin-right: 15px;
+}
+select{
+    flex: 1;
+    color: #000;
+    background-color: aliceblue;
+    height: 50px;
+    width: 120px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    appearance: none;
+    background-image: url(../Text-to-Speech/Drop-down-image/Drop-down-image.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position-x:calc(100% - 20px);
+    background-position-y:20px;
+}
